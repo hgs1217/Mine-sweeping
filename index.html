@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扫雷</title>
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body onload="init()">
+    <div class="canvas" id="canvas" onclick="onClick(event)" oncontextmenu="onRightClick(event)">
+        <div class="content" id="content"></div>
+        <div class="timer" id="timer">0</div>
+        <div class="remain" id="remain"></div>
+    </div>
+</body>
+</html>

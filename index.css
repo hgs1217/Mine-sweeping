@@ -1,0 +1,60 @@
+
+.canvas {
+    height: 900px;
+    width: 1500px;
+    background-color: white;
+    text-align: center;
+    font-size: 150px;
+}
+
+.content {
+    height: 900px;
+    width: 1500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 900px;
+    font-size: 140px;
+    opacity: 0;
+    color: red;
+    z-index: 2;
+}
+
+.rect {
+    height: 30px;
+    width: 30px;
+    background-color: #aaa;
+    border: 2px solid black;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+}
+
+.timer {
+    position: absolute;
+    top: 250px;
+    left: 1300px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: Calibri;
+}
+
+.remain {
+    position: absolute;
+    top: 550px;
+    left: 1300px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: Calibri;
+}
+
+* {
+    user-select:none;
+}
